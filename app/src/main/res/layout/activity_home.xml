@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.daffa.kisah25nabi.home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Kisah 25 Nabi :"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/nbnuh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kisah Nabi Nuh A.S." />
+
+    <Button
+        android:id="@+id/nbibrahim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kisah Nabi Ibrahim A.S." />
+
+    <Button
+        android:id="@+id/nbmusa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kisah Nabi Musa A.S." />
+
+    <Button
+        android:id="@+id/nbisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kisah Nabi Isa A.S." />
+
+    <Button
+        android:id="@+id/nbmuhammad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kisah Nabi Muhammad S.A.W." />
+
+    <Button
+        android:id="@+id/mybio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="My Biodata" />
+
+    <Button
+        android:id="@+id/thisapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Website" />
+
+    <Button
+        android:id="@+id/exx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="exit"
+        android:text="EXIT"
+        android:textColor="#ff0000" />
+
+</LinearLayout>
